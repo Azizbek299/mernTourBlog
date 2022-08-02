@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.loginPage {
+  margin: auto;
+  padding: 15px;
+  max-width: 450px;
+  align-content: center;
+  margin-top: 120px;
+}
+
+.header-text {
+  color: #606080;
+  font-weight: 500;
+  margin-top: 17px;
+  font-size: 17px;
+}
+
+.userName {
+  margin-right:50px;
+  margin-top:27px;
+}
+
+.addTour {
+  margin: auto;
+  padding: 15px;
+  max-width: 450px;
+  align-content: center;
+  margin-top: 120px;
+}
+
+.home {
+  margin:auto;
+  padding:15px;
+  max-width: 1000px;
+  align-content: center;
+}
+
+.dashboard {
+  margin:auto;
+  padding:120px;
+  max-width:900px;
+  align-content: center;
+}
+
+
+.tagTours {
+  margin:20px auto;
+  padding:120px;
+  max-width:900px;
+  align-content:center;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.tag-card {
+  margin: 10px 0 0 20px;
+  color: #806a78;
+}
+
+.tourName {
+  color: "#F48FB1";
+  font-size: 18px;
+  margin: 0 0 0 4px;
+  font-weight: 500;
+}
+
+.tagErrMsg {
+  color: #f93154;
+  margin-top: 5px;
+  text-align: left;
+  font-size: 14px;
+}
+
+h4 {
+  overflow: hidden;
+  text-align: center;
+}
+
+.relatedTour:before,
+.relatedTour:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+
+h4:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+h4:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
